@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Badminton-Scoreboard/static/css/main.30e6e90d.css",
+    "main.js": "/Badminton-Scoreboard/static/js/main.41bfb7ab.js",
+    "static/js/787.9130885f.chunk.js": "/Badminton-Scoreboard/static/js/787.9130885f.chunk.js",
+    "index.html": "/Badminton-Scoreboard/index.html",
+    "main.30e6e90d.css.map": "/Badminton-Scoreboard/static/css/main.30e6e90d.css.map",
+    "main.41bfb7ab.js.map": "/Badminton-Scoreboard/static/js/main.41bfb7ab.js.map",
+    "787.9130885f.chunk.js.map": "/Badminton-Scoreboard/static/js/787.9130885f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e6e90d.css",
+    "static/js/main.41bfb7ab.js"
+  ]
+}
