@@ -1,0 +1,87 @@
+
+.App {
+  text-align: center;
+}
+
+.court {
+  width: 100%;
+  display: flex;
+  height: 80vmin;
+
+  &.changed-sides {
+    flex-direction: row-reverse;
+  }
+
+  .net {
+    border: 5px dashed black;
+  }
+  &-half {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .score-counter {
+      position: absolute;
+      background-color: #dddddd;
+      border: 1px solid black;
+      padding: 1%;
+      border-radius: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 20px;
+      
+    }
+
+    .swap-players-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &-quarter {
+    flex: 1;
+    display: flex;
+    border: 5px solid white;
+    box-sizing: border-box;
+    background-color: #6C935C;
+    flex-direction: column;
+    justify-content:center;
+    position: relative;
+
+    input {
+      text-align: center;
+      font-size: 2em;
+      width: 90%;
+      margin: 0 auto;
+      text-overflow: ellipsis;
+      &:focus {
+        border: 1px solid lightgrey;
+      }
+      background-color: rgba(255, 255, 255, 0.2);
+      transition: background-color 0.2s linear;
+    }
+
+    .server-text {
+      font-size: 18px;
+      width: fit-content;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 20px);
+    }
+  }
+}
+
+
+.basic-button-group {
+  min-width: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5px;
+  background-color: white;
+}
